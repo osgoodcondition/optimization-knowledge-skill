@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "optimization-knowledge",
+  "version": "0.1.0",
+  "description": "Source-grounded optimization notes and a careful paper-reading workflow.",
+  "author": {
+    "name": "osgoodcondition",
+    "url": "https://github.com/osgoodcondition"
+  },
+  "homepage": "https://github.com/osgoodcondition/optimization-knowledge-skill",
+  "repository": "https://github.com/osgoodcondition/optimization-knowledge-skill",
+  "license": "CC-BY-SA-4.0",
+  "keywords": ["optimization", "mathematics", "research", "knowledge-base"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Optimization Knowledge",
+        "shortDescription": "Source-linked optimization notes and paper-reading guidance",
+        "developerName": "osgoodcondition",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/osgoodcondition/optimization-knowledge-skill",
+        "defaultPrompt": [
+          "Use Optimization Knowledge to explain this optimization result and distinguish verified claims from interpretation."
+        ]
+      }
+    }
+  }
+}
