@@ -1,0 +1,20 @@
+{
+  "name": "osgoodcondition-plugins",
+  "interface": {
+    "displayName": "osgoodcondition Plugins"
+  },
+  "plugins": [
+    {
+      "name": "optimization-knowledge",
+      "source": {
+        "source": "local",
+        "path": "./plugins/optimization-knowledge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
